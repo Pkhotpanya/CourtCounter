@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
+    public void addSixPointToTeamA(View view){
+        scoreTeamA = scoreTeamA + 6;
+        displayForTeamA(scoreTeamA);
+    }
+
     public void addThreePointToTeamA(View view){
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
@@ -42,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
     public void addOnePointToTeamA(View view){
         scoreTeamA = scoreTeamA + 1;
         displayForTeamA(scoreTeamA);
+    }
+
+    public void addSixPointToTeamB(View view){
+        scoreTeamB= scoreTeamB + 6;
+        displayForTeamB(scoreTeamB);
     }
 
     public void addThreePointToTeamB(View view){
